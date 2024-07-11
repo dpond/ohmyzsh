@@ -24,7 +24,7 @@ fi
 [[ "$DISABLE_LS_COLORS" != true ]] || return 0
 
 # Default coloring for BSD-based ls
-export LSCOLORS="Gxfxcxdxbxegedabagacad"
+#export LSCOLORS="Gxfxcxdxbxegedabagacad"
 
 # Default coloring for GNU-based ls
 if [[ -z "$LS_COLORS" ]]; then
